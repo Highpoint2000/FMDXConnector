@@ -2,7 +2,8 @@
 
 A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatible from Android 8)
 
-<img width="786" height="779" alt="image" src="https://github.com/user-attachments/assets/403e9a3e-ee25-4890-809a-b8779f48700b" />
+
+![Bild1](https://github.com/user-attachments/assets/d123534b-9964-4f3f-87bb-3642df81bae3)
 
 ## Version 1.0
 
