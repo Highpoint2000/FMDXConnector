@@ -37,6 +37,12 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 - Samsung Galaxy Tab A9+ with Android 15 / OneUI 7.0
 - Samsung Galaxy S24 Ultra with Android 16 / OneUI 8.0
 
+## Notes:
+
+- Address entry with port specification can be done using IP address or domain name, e.g.: highpoint2000.selfhost.de:9080
+- The communication key for the scanner plugin is located in the scanner.json file on the web server or is displayed in the console upon startup. Without this key, the auto-scan cannot be started or stopped.
+- The server connection is activated via the Connect button. A green status indicates a successful connection. The server information will now be forwarded to the TEF Logger app.
+
 ## Contact
 
 If you have any questions, would like to report problems, or have suggestions for improvement, please feel free to contact me! You can reach me by email at highpoint2000@googlemail.com. I look forward to hearing from you!
