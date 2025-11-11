@@ -5,7 +5,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 ![Bild1](https://github.com/user-attachments/assets/d123534b-9964-4f3f-87bb-3642df81bae3)
 
-## Version 1.1
+## Version 1.0
 
 - Integrated display and direct download of beta versions (Activate in the menu!)
 - Display of changes in the update dialog
