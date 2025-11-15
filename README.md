@@ -7,14 +7,11 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 ## Version 1.0
 
-- Integrated display and direct download of beta versions (Activate in the menu!)
-- Display of changes in the update dialog
-- URDS Map now uses the same map set as the TX Map and is therefore capable of offline use
-- CSV files now contain extended TX data
-- The Copy Button under URDS Options now has an export function and also allows sharing of URDS files
-- A new import button under URDS Options now allows you to import CSV files
-- You can now also send CSV files directly into the app using the send/share command
-- Info button with TX location selection fixed
+- FMDX web servers can be directly connected to the TEF Logger app (https://github.com/highpoint2000/TEFLoggerapp)
+- Unlimited number of web server profiles can be added
+- Profile selection via swipe function or left/right buttons
+- Integrated system logging function
+- Optional control of the autoscan function via private key and scanner plugin available from version 3.9 (https://github.com/Highpoint2000/webserver-scanner)
 
 ## Installation notes:
 
