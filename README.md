@@ -1,9 +1,8 @@
 # FMDXConnector
 
 A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatible from Android 8)
+<img width="1148" height="783" alt="image" src="https://github.com/user-attachments/assets/3d4b397b-3dec-4c72-aa70-cf26caf0c48b" />
 
-
-![Bild1](https://github.com/user-attachments/assets/d123534b-9964-4f3f-87bb-3642df81bae3)
 
 ## Version 1.0
 
@@ -11,7 +10,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 - Unlimited number of web server profiles can be added
 - Profile selection via swipe function or left/right buttons
 - Integrated system logging function
-- Optional control of the autoscan function via private key and scanner plugin available from version 3.9 (https://github.com/Highpoint2000/webserver-scanner)
+- Optional control of the autoscan function via admin passwort and scanner plugin available from version 3.9 (https://github.com/Highpoint2000/webserver-scanner)
 
 ## Installation notes:
 
@@ -23,6 +22,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 ## Tested on:
 
 - Samsung Galaxy S7 Edge with Android 8
+- Sasmung Galaxy Tab A with Android 8.1
 - Samsung Galaxy S8 with Android 9 / OneUI 1.0 (Chrome update required -> external APK!)
 - Samsung Galaxy A8 (2018) with Android 9 / OneUI 1.0 (Chrome update required -> external APK!)
 - Samsung Galaxy A6 with Android 10 / OneUI 2.0
@@ -38,8 +38,9 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 ## Notes:
 
 - Address entry with port specification can be done using IP address or domain name, e.g.: highpoint2000.selfhost.de:9080
-- The communication key for the scanner plugin is located in the scanner.json file on the web server or is displayed in the console upon startup. Without this key, the auto-scan cannot be started or stopped.
-- The server connection is activated via the Connect button. A green status indicates a successful connection. The server information will now be forwarded to the TEF Logger app.
+- New servers can be added via the "Add Server" button (swipe left or use the arrow button on the right).
+- The web server administrator password is required to start/stop the autoscan function. The search control << >> does not require a password.
+- The server connection is activated via the Connect button. A green status indicates a successful connection (TEF [FMDX #X] ). The server information will now be forwarded to the TEF Logger app.
 
 ## Contact
 
