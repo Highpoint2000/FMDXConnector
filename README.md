@@ -1,21 +1,18 @@
 # FMDXConnector
 A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatible from Android 8)
 
-<img width="1148" height="783" alt="image" src="https://github.com/user-attachments/assets/3d4b397b-3dec-4c72-aa70-cf26caf0c48b" />
+<img width="833" height="587" alt="image" src="https://github.com/user-attachments/assets/a9ecd44d-8404-4464-ab0f-e4b4534cfa70" />
 
 
-## Version 1.0
+## Version 2.0 (Please uninstall version 1.0 first!)
 
-- FMDX web servers can be directly connected to the TEF Logger app (https://github.com/highpoint2000/TEFLoggerapp)
-- Unlimited number of web server profiles can be added
-- Profile selection via swipe function or left/right buttons
-- Integrated system logging function
-- Optional control of the autoscan function via admin passwort and scanner plugin available from version 3.9 (https://github.com/Highpoint2000/webserver-scanner)
+- Audio playback added
+- Integration of the FMFX server map for direct selection and saving of web servers (globe button / save via + button)
 
 ## Installation notes:
 
 1. If the scanner plugin is installed on the web server, make sure it is version 3.9 or higher (This is required for the Search << >> and Auto Scan functions!)
-2. [Download](https://github.com/Highpoint2000/FMDXConnector/raw/refs/heads/main/FMDXConnector_1.0.apk) the latest apk file 
+2. [Download](https://github.com/Highpoint2000/FMDXConnector/raw/refs/heads/main/FMDXConnector_2.0.apk) the latest apk file 
 3. Install the apk on your smartphone with paket manager
 4. Check your energy saving settings
 
@@ -50,3 +47,11 @@ If you have any questions, would like to report problems, or have suggestions fo
 
 <details>
 <summary>History</summary>
+
+### Version 1.0
+
+- FMDX web servers can be directly connected to the TEF Logger app (https://github.com/highpoint2000/TEFLoggerapp)
+- Unlimited number of web server profiles can be added
+- Profile selection via swipe function or left/right buttons
+- Integrated system logging function
+- Optional control of the autoscan function via admin passwort and scanner plugin available from version 3.9 (https://github.com/Highpoint2000/webserver-scanner)
