@@ -36,10 +36,11 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 ## Notes:
 
-- Address entry with port specification can be done using IP address or domain name, e.g.: highpoint2000.selfhost.de:9080
-- New servers can be added via the "Add Server" button (swipe left or use the arrow button on the right).
-- The web server administrator password is required to start/stop the autoscan function. The search control << >> does not require a password.
-- The server connection is activated via the Connect button. A green status indicates a successful connection (TEF [FMDX #X] ). The server information will now be forwarded to the TEF Logger app.
+- Servers can be connected by directly entering the URL/domain:port (e.g., https://highpoint.fmtuner.org or highpoint2000.selfhost.de:8080) or by selecting https://servers.fmdx.org (button with the globe icon).
+- The server connection is activated via the "Connect" button. A green status indicates a successful connection (TEF [FMDX #X]). The server information is then forwarded to the TEF Logger app.
+- Once a successful connection is established, the audio stream also starts, and the button at the top changes from the play to the stop symbol. Pressing the stop button stops the stream.
+- Servers can be saved using the "+" button (swipe left or use the arrow on the right; #1, #2, etc. will then appear).
+- The web server administrator password is required to start/stop the automatic scan function. The search function << >> does not require a password. However, the scanner plugin version 3.9 or later must be installed.
 
 ## Contact
 
