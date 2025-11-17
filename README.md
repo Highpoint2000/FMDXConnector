@@ -9,6 +9,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 - Audio playback added
 - Integration of the FMFX server map for direct selection and saving of web servers (globe button / save via + button)
+- Dark design for older devices
 
 ## Installation notes:
 
