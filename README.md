@@ -10,7 +10,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 ## Installation notes:
 
 1. If the scanner plugin is installed on the web server, make sure it is version 3.9 or higher (This is required for the Search << >> and Auto Scan functions!)
-2. [Download](https://github.com/Highpoint2000/FMDXConnector/raw/refs/heads/main/FMDXConnector_2.0a.apk) the latest apk file 
+2. [Download](https://github.com/Highpoint2000/FMDXConnector/raw/refs/heads/main/FMDXConnector_2.1.apk) the latest apk file 
 3. Install the apk on your smartphone with paket manager
 4. Check your energy saving settings
 
