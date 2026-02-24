@@ -3,7 +3,7 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 <img width="836" height="587" alt="image" src="https://github.com/user-attachments/assets/53d13aa3-393e-48b0-a7e4-082152e09e52" />
 
-## Version 2.1 (Scanner Plugin 4.0a compatible Version)
+## Version 2.0a (Scanner Plugin 4.0a compatible Version)
 
 - Control of the locked web server built in
 
