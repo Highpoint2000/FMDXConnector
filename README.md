@@ -3,9 +3,10 @@ A WebSocket connector for TEF Logger communication with FMDX Webserver (Compatib
 
 <img width="836" height="587" alt="image" src="https://github.com/user-attachments/assets/53d13aa3-393e-48b0-a7e4-082152e09e52" />
 
-## Version 2.1a
+## Version 2.1b
 
-- Problem with the PS being overwritten by the station name resolved
+- Fixed PS (Station Name) formatting: Removed .trim() to preserve original leading and trailing spaces (prevents _Brocken from becoming Brocken_)
+- Fixed RadioText formatting: Removed .trim() for rt0 and rt1 to pass the original text and its exact spacing directly to the TEF Logger
 
 ## Installation notes:
 
@@ -47,6 +48,10 @@ If you have any questions, would like to report problems, or have suggestions fo
 
 <details>
 <summary>History</summary>
+
+### Version 2.1a
+
+- Problem with the PS being overwritten by the station name resolved
 
 ### Version 2.1 (Scanner Plugin 4.0a compatible Version)
 
